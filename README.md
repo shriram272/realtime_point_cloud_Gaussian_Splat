@@ -1,4 +1,4 @@
-This project is part of a larger project which is focussed on implemting Gaussian Splatting SLAM in mobile robots.
+This project is part of a larger project which is focussed on implemting Gaussian Splatting SLAM in mobile robots. This research was done during internship with IISc Bangalore and submitted to ICRA 2025.
 
 This part is for image to point cloud in realtime using a turtlebot in ROS2. The image is taken from the image topic while DepthAnything is used to provide a depth map. Both are then matched and filtered to generate a realtime point cloud.
 This approach was tested to improve the exixting Gaussian Splatting which uses SFM tools like Colmap etc. It was tested to see if depth map and images can be used to provide a Gaussian Splat.
